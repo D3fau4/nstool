@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.22)
 project(nstools C CXX ASM)
 
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 11)
+
 # Añadir flags de compilación
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wno-unused-value -Wno-unused-but-set-variable -fexceptions")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wno-unused-value -Wno-unused-but-set-variable -fexceptions")
