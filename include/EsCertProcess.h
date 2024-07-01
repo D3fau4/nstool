@@ -2,8 +2,8 @@
 #include "types.h"
 #include "KeyBag.h"
 
-#include <pietendo/hac/es/SignedData.h>
-#include <pietendo/hac/es/CertificateBody.h>
+#include "pietendo/hac/es/SignedData.h"
+#include "pietendo/hac/es/CertificateBody.h"
 
 namespace nstool {
 

@@ -1,8 +1,8 @@
 #pragma once
 #include "types.h"
 
-#include <pietendo/hac/IniHeader.h>
-#include <pietendo/hac/KernelInitialProcessHeader.h>
+#include "pietendo/hac/IniHeader.h"
+#include "pietendo/hac/KernelInitialProcessHeader.h"
 
 namespace nstool {
 

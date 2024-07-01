@@ -1,7 +1,7 @@
 #pragma once
 #include "types.h"
 
-#include <pietendo/hac/ContentMeta.h>
+#include "pietendo/hac/ContentMeta.h"
 
 namespace nstool {
 

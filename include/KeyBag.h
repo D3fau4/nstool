@@ -3,11 +3,11 @@
 #include <vector>
 #include <array>
 #include <map>
-#include <tc/Optional.h>
-#include <tc/io.h>
-#include <pietendo/hac/es/SignUtils.h>
-#include <pietendo/hac/define/types.h>
-#include <pietendo/hac/define/nca.h>
+#include "tc/Optional.h"
+#include "tc/io.h"
+#include "pietendo/hac/es/SignUtils.h"
+#include "pietendo/hac/define/types.h"
+#include "pietendo/hac/define/nca.h"
 
 namespace nstool {
 
