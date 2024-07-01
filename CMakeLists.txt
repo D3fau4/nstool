@@ -55,6 +55,7 @@ add_library(nstools ${NSTOOL_SRC} ${FMT_SRC} ${LZ4_SRC} ${PIENTENDO_SRC} ${TOOLC
 
 # Now you can specify include directories and link libraries for the target
 target_include_directories(nstools PUBLIC
+        include/
         $<BUILD_INTERFACE:${CMAKE_SOURCE_DIR}/include>
         ${FMT_DIR}/include
         ${LZ4_DIR}/include
