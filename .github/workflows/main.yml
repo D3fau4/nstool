@@ -13,6 +13,6 @@ jobs:
 
     - name: Build app
       run: |
-        mkdir build
-        cmake -G "Unix Makefiles" --toolchain=DevkitA64Libnx.cmake -S . -B build
-        cmake --build build
+        mkdir build-cmake
+        cmake -G "Unix Makefiles" --toolchain=DevkitA64Libnx.cmake -S . -B build-cmake
+        cmake --build build-cmake
