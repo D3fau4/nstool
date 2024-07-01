@@ -4,6 +4,8 @@ project(nstools C CXX ASM)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 11)
 
+MESSAGE(STATUS "Using toolchain file: ${CMAKE_TOOLCHAIN_FILE}")
+
 # Añadir flags de compilación
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wno-unused-value -Wno-unused-but-set-variable -fexceptions")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wno-unused-value -Wno-unused-but-set-variable -fexceptions")
@@ -54,7 +56,6 @@ add_library(nstools ${NSTOOL_SRC} ${FMT_SRC} ${LZ4_SRC} ${PIENTENDO_SRC} ${TOOLC
 # Now you can specify include directories and link libraries for the target
 target_include_directories(nstools PUBLIC
         $<BUILD_INTERFACE:${CMAKE_SOURCE_DIR}/include>
-        src/
         ${FMT_DIR}/include
         ${LZ4_DIR}/include
         ${MBEDTLS_DIR}/include
