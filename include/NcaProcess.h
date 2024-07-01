@@ -3,9 +3,9 @@
 #include "KeyBag.h"
 #include "FsProcess.h"
 
-#include "pietendo/hac/ContentArchiveHeader.h"
-#include "pietendo/hac/HierarchicalIntegrityHeader.h"
-#include "pietendo/hac/HierarchicalSha256Header.h"
+#include <pietendo/hac/ContentArchiveHeader.h>
+#include <pietendo/hac/HierarchicalIntegrityHeader.h>
+#include <pietendo/hac/HierarchicalSha256Header.h>
 
 namespace nstool {
 

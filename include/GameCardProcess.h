@@ -3,7 +3,7 @@
 #include "KeyBag.h"
 #include "PfsProcess.h"
 
-#include "pietendo/hac/GameCardHeader.h"
+#include <pietendo/hac/GameCardHeader.h>
 
 namespace nstool {
 

@@ -2,8 +2,8 @@
 #include "types.h"
 #include "RoMetadataProcess.h"
 
-#include "pietendo/hac/define/meta.h"
-#include "pietendo/hac/NsoHeader.h"
+#include <pietendo/hac/define/meta.h>
+#include <pietendo/hac/NsoHeader.h>
 
 namespace nstool {
 
